@@ -22,10 +22,10 @@ export const signup =async (req,res) => {
             password:hashedPassword,
             name,
             verificationToken,
-            verificaitonTokenExpiresAt: Date.now() + 24*60*60*1000 //24hrs
+            verificaitonTokenExpiresAt: Date.now() + 24*60*60*1000 //24hrs & 1000 is for ms...
         })
 
-        await user.save();
+        await user.save(); //saves to db
 
         //jwt
         generateTokenAndSetCookie(res, user._id);
