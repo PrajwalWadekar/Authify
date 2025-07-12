@@ -1,4 +1,3 @@
-// emailSender.js
 import nodemailer from "nodemailer";
 import dotenv from "dotenv";
 dotenv.config();
@@ -16,16 +15,14 @@ const transporter = nodemailer.createTransport({
 export const sendEmail = async (to, subject, htmlContent) => {
   try {
     const info = await transporter.sendMail({
-  from: `"MERN Authentication System" <xtragaming91@gmail.com>`, // ✅ your verified sender
-  to,
-  subject,
-  html: htmlContent,
-});
+      from: `${process.env.BREVO_SENDER_NAME} <${process.env.BREVO_SENDER_EMAIL}>`, // ✅ now hidden
+      to,
+      subject,
+      html: htmlContent,
+    });
 
-
-
-    console.log("✅ Email sent:", info);
+    console.log("Email sent:", info.messageId);
   } catch (error) {
-    console.error("❌ Email sending failed:", error.message);
+    console.error("Email sending failed:", error.message);
   }
 };
