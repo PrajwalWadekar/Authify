@@ -2,7 +2,7 @@ import express from "express";
 import dotenv from 'dotenv';
 import { connectDB } from "./db/connectDB.js"
 import authRoutes from './routes/auth.routes.js';
-import otpRoutes from './routes/sendOtp.js';
+import otpRoutes from './routes/email.routes.js';
 
 dotenv.config();
 
@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 5000;
 
 app.use(express.json());
 app.use("/api/auth",authRoutes);
-app.use("/api", otpRoutes);
+app.use("/api",otpRoutes );
 
 app.listen(PORT,()=>{
     connectDB();
