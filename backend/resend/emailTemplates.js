@@ -93,3 +93,39 @@ export const PASSWORD_RESET_REQUEST_TEMPLATE = `
 </body>
 </html>
 `;
+
+export const WELCOME_EMAIL_TEMPLATE = `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Welcome to MERN Authentication System</title>
+</head>
+<body style="font-family: Arial, sans-serif; line-height: 1.6; color: #333; max-width: 600px; margin: 0 auto; padding: 20px;">
+  <div style="background: linear-gradient(to right, #4CAF50, #45a049); padding: 20px; text-align: center;">
+    <h1 style="color: white; margin: 0;">Welcome Aboard!</h1>
+  </div>
+
+  
+
+  <div style="background-color: #f9f9f9; padding: 20px; border-radius: 0 0 5px 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+    <p>Hello <strong>{name}</strong>,</p>
+    <p>🎉 Welcome to <strong>MERN Authentication System</strong>! We’re thrilled to have you on board.</p>
+    <p>Thank you for verifying your email. You now have access to your dashboard and secure features we provide.</p>
+    <p>Here’s what you can do next:</p>
+    <ul>
+      <li>Access your account securely</li>
+      <li>Manage your profile and settings</li>
+      <li>Enjoy a seamless authentication experience</li>
+    </ul>
+    <p>If you need assistance, feel free to contact our support team at any time.</p>
+    <p>Warm regards,<br><strong>MERN Authentication System Team</strong></p>
+  </div>
+
+  <div style="text-align: center; margin-top: 20px; color: #888; font-size: 0.8em;">
+    <p>This is an automated message, please do not reply to this email.</p>
+  </div>
+</body>
+</html>
+`;
