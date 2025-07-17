@@ -2,8 +2,12 @@
 
 **Authify** is a secure and modern authentication system built with the MERN stack (MongoDB, Express, React, Node.js). This demo project showcases a complete user authentication flow including signup, login, email verification, password reset, and protected routes.
 
-🌐 **Live Demo**: [https://mern-authentication-system-lkmn.onrender.com](https://mern-authentication-system-lkmn.onrender.com)
+## 🌐 Live Demo
 
+Check out the live version of the app:  
+🔗 [Authify Live]([https://mern-to-do-app-fyoo.vercel.app/](https://mern-authentication-system-lkmn.onrender.com))
+
+---
 ---
 
 ## Features
