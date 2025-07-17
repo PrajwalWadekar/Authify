@@ -105,22 +105,22 @@ You can register a new account using any valid email address. A verification lin
 ## 📸 Screenshots
 
 #### Signup Page  
-![Signup](https://your-image-host.com/signup.png)
+![Signup](https://github.com/PrajwalWadekar/MERN-Authentication-System/blob/main/outputs/signup.png )
 
 #### Email Verification  
-![Email Verification](https://your-image-host.com/verify.png)
+![Email Verification](https://github.com/PrajwalWadekar/MERN-Authentication-System/blob/main/outputs/verifyemail.png)
 
 #### Login Page  
-![Login](https://your-image-host.com/login.png)
+![Login](https://github.com/PrajwalWadekar/MERN-Authentication-System/blob/main/outputs/login.png)
 
 #### Dashboard  
-![Dashboard](https://your-image-host.com/dashboard.png)
+![Dashboard](https://github.com/PrajwalWadekar/MERN-Authentication-System/blob/main/outputs/dashboard.png)
 
 #### Forgot Password  
-![Forgot Password](https://your-image-host.com/forgot-password.png)
+![Forgot Password](https://github.com/PrajwalWadekar/MERN-Authentication-System/blob/main/outputs/forgotpassword.png)
 
 #### Reset Password  
-![Reset Password](https://your-image-host.com/reset-password.png)
+![Reset Password](https://github.com/PrajwalWadekar/MERN-Authentication-System/blob/main/outputs/passwordreset.png)
 
 
 ---
