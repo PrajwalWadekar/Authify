@@ -5,6 +5,7 @@ import LoginPage from "./pages/LoginPage"
 import SignUpPage from "./pages/SignUpPage"
 import EmailVerificationPage from "./pages/EmailVerificationPage"
 import DashboardPage from "./pages/DashboardPage"
+import LoadingSpinner from "./componenets/LoadingSpinner"
 
 import {Toaster} from "react-hot-toast"
 import { useAuthStore } from "./store/authStore"
@@ -45,8 +46,8 @@ function App() {
     checkAuth();
   },[checkAuth])
 
-  console.log("isauthenticated",isAuthenticated)
-  console.log("user",user);
+  if(isCheckingAuth) return <LoadingSpinner/>;
+
   return (
     <div className="min-h-screen bg-gradient-to-br
     from-gray-900 via-green-900 to-emerald-900 flex items-center justify-center relative overflow-hidden ">
