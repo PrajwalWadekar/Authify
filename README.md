@@ -7,7 +7,7 @@
 ## 🌐 Live Demo
 
 Check out the live version of the app:  
-🔗 [Authify Live]([https://mern-to-do-app-fyoo.vercel.app/](https://mern-authentication-system-lkmn.onrender.com))
+🔗 [Authify Live](https://mern-authentication-system-lkmn.onrender.com)
 
 ---
 
