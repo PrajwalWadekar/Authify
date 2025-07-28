@@ -1,6 +1,6 @@
 # Authify – MERN Authentication System
 
-**Authify** is a secure and modern authentication system built with the MERN stack (MongoDB, Express, React, Node.js). This demo project showcases a complete user authentication flow including signup, login, email verification, password reset, and protected routes.
+**Authify** is a secure and modern authentication system built with the MERN stack (MongoDB, Express, React, Node.js). This project showcases a complete user authentication flow including signup, login, email verification, password reset, and protected routes.
 
 ---
 
